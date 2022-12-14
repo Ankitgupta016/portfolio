@@ -1,0 +1,287 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #e3dfdf;
+
+}
+
+.nav-link {
+
+    color: rgba(4, 4, 4, 0.769) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.5),
+        0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+.navbar-dark,
+.nav-link:hover {
+    color: red !important
+}
+
+.navbar {
+    border-bottom: 1px solid #807878 !important;
+    background-color: #e3dfdf !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    content: "";
+    background: 50%/100% 100% no-repeat;
+    position: relative;
+    top: -2px;
+    font-size: 31px;
+    left: -1px;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: "Dancing Script", cursive;
+
+    font-weight: bolder;
+    color: rgba(4, 4, 4, 0.769) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.5),
+        0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+
+}
+
+.navbar-toggler {
+    background-color: #17161691 !important;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.hireme {
+    margin-top: 12px;
+}
+
+.hire {
+    background-color: red;
+    display: inline;
+    border-radius: 5px;
+}
+
+.hire:link,
+.hire:hover,
+.hire:active {
+    background-color: #2c3e50 !important;
+}
+/* .btnn{
+    background-color: #2c3e50;
+    width: 100px;
+} */
+.container-sm {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    width: 33%;
+    height: 17vw;
+    border: 2px solid #aeabab;
+    padding-left: 0px;
+    margin: 0 12px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 100%;
+    border-radius: 0px !important;
+    overflow: hidden;
+}
+
+.card:active,
+.card:hover {
+    transform: scale(1.12);
+}
+
+.card img:active,
+.card img:hover {
+    transform: scale(1);
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+#about {
+    /* background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/about.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    background-repeat: no-repeat;
+
+    color: rgb(19, 7, 7);
+
+}
+
+#about h1 {
+    font-size: 2.7em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.5),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+#about p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#white-bg {
+
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6% 2%;
+}
+
+#about .img {
+    margin-top: 9px;
+    padding: 10px;
+    max-width: 180px;
+    border-radius: 50%;
+    margin-bottom: -23px;
+}
+
+.progres {
+    width: 60%;
+    margin: 10px auto;
+    position: relative;
+    top: -7px;
+}
+
+label {
+    display: flex;
+
+    margin-bottom: 0.1rem !important;
+}
+
+.progress {
+    height: 0.7rem !important;
+}
+
+.form-control {
+    box-shadow: none !important;
+
+}
+
+
+.masthead-avatar {
+    border-radius: 50%;
+    margin-bottom: 0rem !important;
+    width: 150px;
+    margin-top: 6rem;
+}
+
+.divider-custom {
+
+    width: 101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    color: red;
+
+}
+
+
+
+.divider-custom .divider-custom-line:first-child {
+
+    margin-right: 0rem;
+
+}
+
+.divider-custom .divider-custom-line {
+
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #f7ab06;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+
+}
+
+.masthead {
+    /* background-color: #e3dfdf; */
+    color: black !important;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .progres {
+        width: 100%;
+        margin: 10px auto;
+        position: relative;
+        top: -7px;
+    }
+
+
+    .card {
+        display: flex;
+        width: 100%;
+        height: 17vw;
+        padding-left: 0px;
+        margin: 0 12px;
+     
+        overflow: hidden;
+    }
+
+
+    .img {
+        width: 208px;
+        position: relative;
+        text-align: center;
+        top: -23px;
+    }
+}
+@media (max-width: 576px){
+.container, .container-sm {
+  max-width: 600px;
+}
+}
+ @media screen and (max-width:500px) {
+
+    .container-sm {
+  display: flex;
+  flex-direction: column;
+  padding-right: 36px;
+  padding-left: 6px;
+    }
+.card{
+    margin-bottom: 15px;
+height: 181px;
+border: 2px solid #aeabab;
+}
+.card1{
+    margin-top: -18px;
+}
+    /* #about h1 {
+
+        text-align: start;
+        font-size: 2.7em;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+            0px 8px 13px rgba(0, 0, 0, 0.5),
+            0px 18px 23px rgba(0, 0, 0, 0.1);
+    } */
+}
