@@ -23,9 +23,9 @@ toggle.addEventListener('click',()=>{
     document.querySelector('.Portfolio').classList.toggle('white')
     document.querySelector('.masthead').classList.toggle('white')
     document.querySelector('#about').classList.toggle('white')
-    document.querySelector('#about1').classList.toggle('white')
-    document.querySelector('#about2').classList.toggle('white')
-    document.querySelector('#about3').classList.toggle('white')
+    document.querySelector('.about1').classList.toggle('white')
+    document.querySelector('.about2').classList.toggle('white')
+    document.querySelector('.about3').classList.toggle('white')
 });
 
 toggle.addEventListener('click',()=>toggle.classList.toggle("active"))
