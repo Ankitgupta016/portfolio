@@ -1,0 +1,107 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    background-color: #e3dfdf;
+    transition: all 0.3s ease;
+}
+.navbar {
+    border-bottom: 1px solid #807878 !important;
+    background-color: #e3dfdf !important;
+  }
+  .navbar.black{
+    background-color: #1d2a35 !important;
+    border-bottom: 1px solid #fefafa !important;
+    color: white !important;
+  }
+body.dark{
+    background-color: #1d2a35 !important;
+    color: white !important;
+
+}
+
+.toggle{
+  height: 33px;
+  width: 33px;
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
+    position: relative;
+    cursor: pointer;
+
+}
+.toggle::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-color: #b70808;
+ border-radius: 50%;
+ top: 50%;
+ left: 1px;
+ transform:translatey(-50%) ;
+ transition: all 0.5s ease-in-out;
+}
+.toggle.active::before{
+  background: #1d2a35;
+  left: calc(100% - 29px);
+}
+
+.navbar-brand {
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    color: rgba(4, 4, 4, 0.769) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+  }
+  .navbar-brand.white{
+    color: rgba(248, 247, 247, 0.769) !important;
+  }
+  .nav-link {
+    color: rgba(4, 4, 4, 0.769) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+  }
+  .nav-link.white{
+    color: rgba(248, 247, 247, 0.769) !important;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.5), 0px 18px 23px rgba(0, 0, 0, 0.1) !important;
+  }
+  .navbar-dark,
+.nav-link.white:hover {
+    color: red !important
+}
+.masthead {
+  color: black !important;
+}
+
+.masthead.white {
+  color: rgba(248, 247, 247, 0.769) !important;
+}
+
+#about {
+  color: rgb(19, 7, 7);
+}
+#about.white {
+  color: rgb(250, 248, 248);
+}
+
+#about1.white {
+  color: rgb(250, 248, 248);
+}
+#about2.white {
+  color: rgb(250, 248, 248);
+}
+#about3.white {
+  color: rgb(250, 248, 248);
+}
+
+ .img {
+  margin-top: -13px;
+  /* padding: 9px; */
+  border: 1px solid black;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  margin-bottom: -23px;
+}
+.toggle{
+  position: fixed;
+  top: 11px;
+  right: 7px;
+}

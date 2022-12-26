@@ -7,16 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/780468c39f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/toogle.css">
     <link rel="stylesheet" href="css/style.css">
     <title>MY-PORTFOLIO</title>
 </head>
 
 <body>
-
+ 
+   
+ 
     <!--====================== 
          navbar section start
         ========================== -->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top navbar-shrink" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top  navbar-shrink" id="mainNav">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="#" >Ankit Gupta</a>
@@ -26,26 +29,27 @@
                 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
             </button>
 
-
+            <div class="toggle">
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="navbar-nav ml-auto ">
+                <ul class="navbar-nav ml-auto " style="margin-right: 17px !important;">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span> </a>
+                        <a class="nav-link Home" href="#"> Home <span class="sr-only">(current)</span> </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link active" href="#about-link"> About Me</a>
+                        <a class="nav-link active about" href="#about-link"> About Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#Contact-link"> contact
+                        <a class="nav-link contact" href="#Contact-link"> contact
                             Me</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#Myskill-link">
+                        <a class="nav-link MySkill" href="#Myskill-link">
                             MySkills</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#Portfolio">
+                        <a class="nav-link   Portfolio" href="#Portfolio">
                             Portfolio</a>
 
                     </li>
@@ -55,10 +59,11 @@
             </div>
         </div>
     </nav>
+   
     <!--====================== 
          navbar section end
         ========================== -->
-
+     
     <!--====================== 
          main section start
         ========================== -->
@@ -166,7 +171,7 @@
          Portfolio section start 
         ========================== -->
     <a class="anchor" id="Portfolio"></a>
-    <div id="about" class="container-fluid text-center" style="margin-bottom: -32px;">
+    <div id="about about1 " class="container-fluid text-center" style="margin-bottom: -32px;">
         <h1> Portfolio</h1>
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
@@ -213,7 +218,7 @@
         ========================== -->
         <div>
             <a class="anchor" id="about-link"></a>
-            <div id="about" class="container-fluid text-center" style="margin-bottom: -32px;">
+            <div id="about about2" class="container-fluid text-center" style="margin-bottom: -32px;">
                 <h1>About us</h1>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -229,9 +234,10 @@
                                 alt="Ankit gupta" />
                         </div>
                         <div id="white-bg" class="col-lg-8">
-                            <p>
+                            <p style="margin-top: 17px;width: 100%;">
                                 B.Tech DropOut. Full Stack Developer. Qualified web Development with 1 years of practical experience.
                             </p>
+                            
                         </div>
                     </div>
                 </div>
@@ -246,7 +252,7 @@
         ========================== -->
         <div>
             <a class="anchor" id="Contact-link"></a>
-            <div id="about" class="container-fluid text-center">
+            <div id="about about3" class="container-fluid text-center">
                 <h1>Contact us</h1>
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -254,7 +260,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <hr />
-                <div class="progres ">
+                <div class="progres form_cont ">
                     <form action="">
                         <div class="form-group">
                             <label> Name:</label>
@@ -306,12 +312,12 @@
             </div>
             <div class="col-lg-4">
                 <h2 id="hire-link">Communication</h2>
-                <a href="#" style="white-space: nowrap;">
+                <a href="mailto:ankitgupta46178@gmail.com" style="white-space: nowrap;">
                     <span class="fa-stack fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                     </span></a>
-                <a href="#">
+                <a href="tel:+917489891592">
                     <span class="fa-stack fa-2x" style="white-space: nowrap;">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone-volume fa-stack-1x fa-inverse"></i>
@@ -334,7 +340,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
         <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-
+<script src="toogle.js"></script>
         <!--====================== 
          javascript section end
         ========================== -->
